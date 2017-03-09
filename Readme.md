@@ -5,7 +5,7 @@ A quick example of Python 2.7 modules implemented in C using the Python/C API.
 
 ```
 make all
-python -c "import hello; hello.say_hello('World')"
+python -c "import hello; hello.greet('World')"
 python -c "import fib; print fib.fib(5)"
 make clean
 ```
