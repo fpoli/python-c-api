@@ -40,6 +40,5 @@ static struct PyModuleDef helloStruct = {
 /* Module initialization */
 PyObject *PyInit_hello(void)
 {
-    Py_Initialize();
     return PyModule_Create(&helloStruct);
 }
