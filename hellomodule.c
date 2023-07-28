@@ -23,7 +23,7 @@ static PyMethodDef HelloMethods[] = {
     {NULL, NULL, 0, NULL}  /* Sentinel */
 };
 
-/*create PyModuleDef stucture*/
+/* create PyModuleDef stucture */
 static struct PyModuleDef helloStruct = {
     PyModuleDef_HEAD_INIT,
     "hello",
