@@ -1,6 +1,6 @@
 # Declaration of variables
 CC = gcc
-CC_FLAGS = -shared -fPIC -I/usr/include/python2.7 \
+CC_FLAGS = -shared -fPIC -I/usr/include/python3.10 \
 	-Wall -Wextra -Wno-unused-parameter -O2 -g
 
 # File names

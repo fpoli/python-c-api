@@ -1,7 +1,7 @@
 Python/C API quick start
 =========================
 
-A quick example of Python 2.7 modules implemented in C using the Python/C API.
+A quick example of Python 3.10 modules implemented in C using the Python/C API.
 
 ```
 make all
