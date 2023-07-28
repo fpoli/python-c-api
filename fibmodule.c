@@ -31,7 +31,7 @@ static PyMethodDef FibMethods[] = {
     {NULL, NULL, 0, NULL}  /* Sentinel */
 };
 
-/*create PyModuleDef structure*/
+/* Create PyModuleDef structure */
 static struct PyModuleDef fibStruct = {
     PyModuleDef_HEAD_INIT,
     "fib",
