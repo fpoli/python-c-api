@@ -15,7 +15,7 @@ all: $(OBJECTS)
 	$(CC) $(CC_FLAGS) $< -o $@
 
 run: $(OBJECTS)
-	python -c "import fib; print fib.fib(5)"
+	python -c "import fib; print(fib.fib(5))"
 	python -c "import hello; hello.greet('Foobar')"
 
 # To remove generated files
