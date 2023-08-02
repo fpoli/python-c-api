@@ -23,9 +23,22 @@ static PyMethodDef HelloMethods[] = {
     {NULL, NULL, 0, NULL}  /* Sentinel */
 };
 
+/* Create PyModuleDef stucture */
+static struct PyModuleDef helloStruct = {
+    PyModuleDef_HEAD_INIT,
+    "hello",
+    "",
+    -1,
+    HelloMethods,
+    NULL,
+    NULL,
+    NULL,
+    NULL
+};
+
+
 /* Module initialization */
-PyMODINIT_FUNC
-inithello(void)
+PyObject *PyInit_hello(void)
 {
-    (void) Py_InitModule("hello", HelloMethods);
+    return PyModule_Create(&helloStruct);
 }
